@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql"
 
-	_ "github.com/mattn/go-sqlite3"
+	"github.com/go-sql-driver/mysql"
 )
 
 var DB *sql.DB
@@ -11,9 +11,19 @@ var DB *sql.DB
 func InitDB() {
 	var err error
 
-	DB, err = sql.Open("sqlite3", "api.db")
+	cfg := mysql.Config{
+		User:                 "root",
+		Passwd:               "Suresh@123",
+		Net:                  "tcp",
+		Addr:                 "127.0.0.1:3306",
+		DBName:               "suresh",
+		AllowNativePasswords: true,
+	}
+
+	DB, err = sql.Open("mysql", cfg.FormatDSN()) // creates a database object
 	if err != nil {
-		panic("could not connect to database")
+
+		panic(err.Error())
 	}
 
 	DB.SetMaxOpenConns(10) // controlling howmany connections can be open simultaneously atmost
@@ -23,7 +33,7 @@ func InitDB() {
 
 func createtables() {
 	createEventTable := `CREATE TABLE IF NOT EXISTS events (
-		 id INTEGER PRIMARY KEY AUTOINCREMENT,
+		 id INTEGER PRIMARY KEY AUTO_INCREMENT,
 		 name TEXT NOT NULL,
 		 description TEXT NOT NULL,
 		 dateTime DATETIME NOT NULL, 
@@ -34,6 +44,6 @@ func createtables() {
 
 	if err != nil {
 
-		panic("could not creates event table")
+		panic(err.Error())
 	}
 }

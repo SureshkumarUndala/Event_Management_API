@@ -7,6 +7,7 @@ import (
 )
 
 func RegisterRoutes(server *gin.Engine) {
+
 	server.GET("/events", controllers.GetEvents)
 	server.GET("/events/:id", controllers.GetEventbyID)
 	server.POST("/events", controllers.CreateEvent)

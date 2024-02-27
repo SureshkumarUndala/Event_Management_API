@@ -12,6 +12,6 @@ type Event struct {
 }
 
 // func (e Event) Save() {
-// 	 query := "INSERT INTO events(name,de)"
+// 	 query := "INSERT INTO events(name,description,)"
 
 // }

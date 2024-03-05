@@ -33,17 +33,32 @@ func InitDB() {
 
 func createtables() {
 	createEventTable := `CREATE TABLE IF NOT EXISTS events (
-		 id INTEGER PRIMARY KEY AUTO_INCREMENT,
+		 eventId INTEGER PRIMARY KEY AUTO_INCREMENT,
 		 name TEXT NOT NULL,
 		 description TEXT NOT NULL,
 		 dateTime DATETIME NOT NULL, 
+		 location Text NOT NULL,
 		 user_id INTEGER
+		 
 
 	)`
+
+	createUserTable := `CREATE TABLE IF NOT EXISTS users (
+		id INTEGER  PRIMARY KEY AUTO_INCREMENT,
+		name TEXT NOT NULL,
+		email TEXT NOT NULL,
+		password TEXT NOT NULL
+	
+   )`
+
 	_, err := DB.Exec(createEventTable)
 
 	if err != nil {
 
 		panic(err.Error())
 	}
+	if _, err := DB.Exec(createUserTable); err != nil {
+		panic(err.Error())
+	}
+
 }

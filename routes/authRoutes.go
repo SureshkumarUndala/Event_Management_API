@@ -8,8 +8,20 @@ import (
 
 func RegisterRoutes(server *gin.Engine) {
 
-	server.GET("/events", controllers.GetEvents)
-	server.GET("/events/:id", controllers.GetEventbyID)
-	server.POST("/events", controllers.CreateEvent)
+	auth := server.Group("/api/v1")
+	{
+
+		auth.POST("/login", controllers.Login)
+		auth.POST("/signup", controllers.RegisterUser)
+		auth.POST("/forgotpasswpord", controllers.Resetpassword)
+
+	}
+
+	event := server.Group("/api/v1")
+	{
+		event.GET("/events", controllers.GetEvents)
+		event.GET("/events/:id", controllers.GetEventbyID)
+		event.POST("/events", controllers.CreateEvent)
+	}
 
 }

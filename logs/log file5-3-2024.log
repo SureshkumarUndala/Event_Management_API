@@ -1,0 +1,69 @@
+2024/03/05 15:11:20.704320 main.go:18: INFO : server started on 8080 port
+2024/03/05 15:12:35.604639 main.go:20: INFO : server started on 8080 port 1709631755604639233
+2024/03/05 15:18:58.156357 main.go:20: INFO : server started on 8080 port 1709632138156357506
+2024/03/05 15:20:39.148614 main.go:20: INFO : server started on 8080 port 1709632239148614143
+2024/03/05 15:20:48.266000 main.go:23: ERROR : Invalid end point middlware was triggered 1709632248266000173
+2024/03/05 15:23:03.965737 main.go:20: INFO : server started on 8080 port 1709632383965737227
+2024/03/05 15:23:08.948559 main.go:23: ERROR : Invalid end point middlware was triggered 1709632388948559577
+2024/03/05 15:23:31.292268 authControllers.go:16: INFO : RegisterUser controller was called 1709632411292267909
+2024/03/05 15:23:31.292382 authControllers.go:23: INFO : Error occured while parsing the user data from the signup request 1709632411292382288
+2024/03/05 15:24:07.456866 main.go:20: INFO : server started on 8080 port 1709632447456865622
+2024/03/05 15:24:18.894698 main.go:23: ERROR : Invalid end point middlware was triggered 1709632458894698095
+2024/03/05 15:24:29.093378 authControllers.go:16: INFO : RegisterUser controller was called 1709632469093377742
+2024/03/05 15:24:29.093488 authControllers.go:23: ERROR : Error occured while parsing the user data from the signup request 1709632469093488222
+2024/03/05 15:28:25.794250 authControllers.go:16: INFO : RegisterUser controller was called 1709632705794249732
+2024/03/05 15:28:25.794460 authControllers.go:23: ERROR : Error occured while parsing the user data from the signup request 1709632705794460600
+2024/03/05 15:30:49.494220 authControllers.go:16: INFO : RegisterUser controller was called 1709632849494220203
+2024/03/05 15:30:49.494427 authControllers.go:23: ERROR : Error occured while parsing the user data from the signup request 1709632849494427119
+2024/03/05 15:30:57.506550 main.go:20: INFO : server started on 8080 port 1709632857506550070
+2024/03/05 15:30:58.935087 authControllers.go:16: INFO : RegisterUser controller was called 1709632858935086940
+2024/03/05 15:30:58.935339 authControllers.go:23: ERROR : Error occured while parsing the user data from the signup request 1709632858935338822
+2024/03/05 15:31:27.581049 main.go:20: INFO : server started on 8080 port 1709632887581049162
+2024/03/05 15:31:30.621974 authControllers.go:16: INFO : RegisterUser controller was called 1709632890621974297
+2024/03/05 15:31:30.622197 authControllers.go:23: ERROR : Error occured while parsing the user data from the signup request 1709632890622197212
+2024/03/05 15:31:43.737617 main.go:20: INFO : server started on 8080 port 1709632903737617340
+2024/03/05 15:31:44.608303 authControllers.go:16: INFO : RegisterUser controller was called 1709632904608302636
+2024/03/05 15:36:03.787173 authControllers.go:16: INFO : RegisterUser controller was called 1709633163787172728
+2024/03/05 15:36:03.787298 authControllers.go:23: ERROR : Error occured while parsing the user data from the signup request 1709633163787297823
+2024/03/05 15:36:18.318573 authControllers.go:16: INFO : RegisterUser controller was called 1709633178318572628
+2024/03/05 15:36:18.318723 authControllers.go:23: ERROR : Error occured while parsing the user data from the signup request 1709633178318723290
+2024/03/05 15:36:24.396183 authControllers.go:16: INFO : RegisterUser controller was called 1709633184396182719
+2024/03/05 15:36:24.396315 authControllers.go:23: ERROR : Error occured while parsing the user data from the signup request 1709633184396314937
+2024/03/05 15:36:28.136822 authControllers.go:16: INFO : RegisterUser controller was called 1709633188136822125
+2024/03/05 16:31:23.782952 main.go:20: INFO : server started on 8080 port 1709636483782951842
+2024/03/05 16:32:00.921414 authControllers.go:27: INFO : RegisterUser controller was called 1709636520921414229
+2024/03/05 16:32:00.944875 authControllers.go:41: ERROR : Error occured while query the user from database 1709636520944874938
+2024/03/05 16:32:01.066460 authControllers.go:59: ERROR : Error occured while saving user details in database 1709636521066459867
+2024/03/05 16:33:02.724333 main.go:20: INFO : server started on 8080 port 1709636582724333201
+2024/03/05 16:33:07.344531 authControllers.go:27: INFO : RegisterUser controller was called 1709636587344531218
+2024/03/05 16:33:07.345388 authControllers.go:41: ERROR : Error occured while query the user from database 1709636587345388037
+2024/03/05 16:33:07.460209 authControllers.go:59: ERROR : Error occured while saving user details in database 1709636587460208680
+2024/03/05 16:33:46.541672 main.go:20: INFO : server started on 8080 port 1709636626541671423
+2024/03/05 16:33:53.899032 authControllers.go:27: INFO : RegisterUser controller was called 1709636633899032124
+2024/03/05 16:33:53.900132 authControllers.go:41: ERROR : Error occured while query the user from database 1709636633900132401
+2024/03/05 16:33:54.044543 authControllers.go:59: ERROR : Error occured while saving user details in database 1709636634044542661
+2024/03/05 16:44:12.499650 main.go:20: INFO : server started on 8080 port 1709637252499649857
+2024/03/05 16:44:21.037543 authControllers.go:27: INFO : RegisterUser controller was called 1709637261037543481
+2024/03/05 16:44:21.037635 authControllers.go:31: ERROR : Error occured while parsing the user data from the signup request 1709637261037634828
+2024/03/05 16:44:31.139938 authControllers.go:27: INFO : RegisterUser controller was called 1709637271139938294
+2024/03/05 16:44:31.141047 authControllers.go:41: ERROR : Error occured while query the user from database 1709637271141046775
+2024/03/05 16:44:31.248896 authControllers.go:59: ERROR : Error occured while saving user details in database 1709637271248895814
+2024/03/05 16:45:38.496794 main.go:20: INFO : server started on 8080 port 1709637338496793810
+2024/03/05 16:45:40.439554 authControllers.go:27: INFO : RegisterUser controller was called 1709637340439553832
+2024/03/05 16:45:40.630978 authControllers.go:64: INFO : user Registration successful 1709637340630976946
+2024/03/05 16:46:47.184745 authControllers.go:27: INFO : RegisterUser controller was called 1709637407184744669
+2024/03/05 16:46:47.185713 authControllers.go:46: ERROR : Error occured while registered user try to create another account 1709637407185712655
+2024/03/05 20:07:12.706812 main.go:20: INFO : server started on 8080 port 1709649432706812321
+2024/03/05 20:07:15.411656 authControllers.go:56: INFO : RegisterUser controller was called 1709649435411655648
+2024/03/05 20:07:15.412540 authControllers.go:76: ERROR : Error occured while registered user try to create another account 1709649435412540639
+2024/03/05 20:09:46.930721 main.go:20: INFO : server started on 8080 port 1709649586930721049
+2024/03/05 20:10:36.457071 main.go:20: INFO : server started on 8080 port 1709649636457070579
+2024/03/05 20:10:51.086428 main.go:20: INFO : server started on 8080 port 1709649651086427574
+2024/03/05 20:10:56.493366 main.go:20: INFO : server started on 8080 port 1709649656493366020
+2024/03/05 20:11:08.860678 main.go:23: ERROR : Invalid end point middlware was triggered 1709649668860678312
+2024/03/05 20:11:44.184980 main.go:20: INFO : server started on 8080 port 1709649704184979867
+2024/03/05 20:11:45.605451 main.go:23: ERROR : Invalid end point middlware was triggered 1709649705605451253
+2024/03/05 20:11:52.738609 authControllers.go:31: ERROR : Error occured while parsing the user data from the login  request 1709649712738609010
+2024/03/05 20:12:05.884843 authControllers.go:50: INFO : user login request successfull 1709649725884843270
+2024/03/05 20:12:28.867856 authControllers.go:50: INFO : user login request successfull 1709649748867856015
+2024/03/05 22:56:49.828959 main.go:20: INFO : server started on 8080 port 1709659609828959600

@@ -1,6 +1,7 @@
 package utils
 
 import (
+	"go/token"
 	"os"
 	"time"
 
@@ -19,6 +20,6 @@ func CreateJWT(email string) (string, error) {
 
 }
 
-// func VerifyTokenJWT(string) error {
+func VerifyTokenJWT(token string) error {
 
-// }
+}
